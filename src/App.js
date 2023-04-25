@@ -1,9 +1,10 @@
 import React from "react";
 import MyName from "./MyName";
+import Counter from "./Counter";
 import "./App.css";
 
 function App() {
-  return <MyName name="리액트" />;
+  return <Counter />;
 }
 
 export default App;
